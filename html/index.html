@@ -85,5 +85,70 @@
       </tbody>
       </table>
     </div>
+    <div>
+      <h2>Forms</h2>
+        <form action="/sign-in-url" method="post">
+          <input type="text">
+          <input type="password">
+          <button>Login</button>
+        </form>
+        <form>
+          <input type="number">
+          <input type="button">
+          <input type="color">
+          <input type="checkbox">
+          <input type="date">
+          <input type="text" placeholder="Username">
+          <input type="password" placeholder="Password">
+          <input type="submit">
+        </form>
+    </div>
+    <div>
+      <h2>Login Form</h2>
+      <form action="http://wikipedia.org" method="post">
+        <input name="Username" type="text" placeholder="Username">
+        <input name="password" type="password" placeholder="Password">
+        <input type="submit">
+      </form>
+    </div>
+    <div>
+      <h2>Lables (Add these to create accessibility for others, such as people who are blind)</h2>
+      <form action="http://wikipedia.org" method="post">
+        <label for="Username"><strong>Username:</strong></label>
+        <input id="Username" type="text" placeholder="ArnaldoP">
+        <label for="Password"><strong>Password:</strong></label>
+        <input id="Password" type="password" placeholder="Text1234">
+        <input type="submit">
+      </form>
+    </div>
+    <div>
+      <br>
+      <h2>Form Validations<h2>
+        <h2>Lables (You have to enter a email and password)</h2>
+        <form action="http://wikipedia.org" method="post">
+          <label for="Email"><strong>Email</strong></label>
+          <input id="Email" type="email" placeholder="Arnold.pires92@gmail.com" required>
+          <label for="Password"><strong>Password:</strong></label>
+          <input id="Password" type="password" placeholder="Text1234" required>
+          <input type="submit">
+        </form>
+    </div>
+    <div>
+      <h2>Dropdowns and Radio Buttons</h2>
+      <p>Do you like Dogs or Cats?</p>
+      <form>
+        <label for="Dogs">Dogs:</label>
+        <input name="petChoice" id="Dogs" type="radio" value="Dogs">
+        <label for="Cats">Cats:</label>
+        <input name="petChoice" id="Cats" type="radio" value="Cats">
+        <p>Select your favorite color:</p>
+        <select name="color">
+          <option value="wow, you must like blood">Red</option>
+          <option value="Jeez, you must be sad">Gray</option>
+          <option value="Do you stare at the sky a lot?">Blue</option>
+        </select>
+        <button>Go!</button>
+      </form>
+    </div>
   </body>
 </html>
