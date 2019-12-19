@@ -1,13 +1,13 @@
 /*font-family*/
 h1 {
-  font-family: Georgia;
+  font-family: 'ma shan Zheng';
 }
 p {
-  font-family: Arial;
+  font-family: 'Lakki Reddy';
 }
 /*font-size*/
 body {
-  font-size: 10px;
+  font-size: 20px;
 }
 h1 {
   font-size: 5.0em;
@@ -23,9 +23,7 @@ p {
   font-weight: bold;
 }
 /*line-height*/
-P {
-  line-height: 1.5px;
-}
+
 /*text-align*/
 h1 {
   text-align: right;
