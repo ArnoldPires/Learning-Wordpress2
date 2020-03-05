@@ -38,3 +38,23 @@ while(count < str.length) {
   console.log(str[count]);
   count++;
 }
+
+let countByTwo = 2;
+while(countByTwo <= 14) {
+  console.log("count is:" + countByTwo);
+  countByTwo+=2;
+}
+
+let oddNumbers = 1;
+while(oddNumbers <= 11) {
+console.log("these are odd numbers " + oddNumbers);
+oddNumbers += 2;
+}
+
+let num = 1
+while(num <= 20) {
+  if(num % 4 === 0) {
+    console.log(num);
+  }
+  num++;
+}
