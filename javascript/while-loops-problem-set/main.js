@@ -21,3 +21,27 @@ while(num22 <= 40){
   }
   num22+=1;
 }
+console.log("Print all odd numbers between 300 and 333");
+let num3 = 301;
+while(num3 <= 333){
+  console.log(num3);
+  document.getElementById('num3').innerHTML = num3;
+  num3 += 2;
+}
+console.log("Another way to do above");
+let num33 = 300;
+while(num33 <= 333){
+  if(num33 % 2 !== 0){
+    console.log(num33);
+  }
+  num33+=1;
+}
+console.log("Print all numbers divisible by 5 AND 3 between 5 and 50");
+let num4 = 5;
+while(num4 <= 50){
+  if(num4 %3 === 0 && num4 % 5 === 0){
+    console.log(num4);
+    document.getElementById('num4').innerHTML = num4;
+  }
+  num4++;
+}
