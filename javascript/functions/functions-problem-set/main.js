@@ -37,8 +37,10 @@ document.getElementById('factorial3').innerHTML = factorial(10);
 document.getElementById('factorial4').innerHTML = factorial(1);
 
 console.log("kebabToSnake()");
-function kebabToSnake2() {
-  var str = document.getElementsByClassName("kebab").innerHTML;
-  var res = str.replace(/-/i, '_');
-  document.getElementsByClassName("kebab").innerHTML = res;
+function kebabToSnake(str) {
+  var str = document.getElementsByClassName("kebab")[0].innerHTML;
+  var str = document.getElementsByClassName("kebab2")[0].innerHTML;
+  var res = str.replace(/-/g , "_");
+  document.getElementsByClassName("kebab")[0].innerHTML = res;
+  document.getElementsByClassName("kebab2")[0].innerHTML = res;
 }
